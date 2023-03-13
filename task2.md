@@ -3,7 +3,7 @@ Instructions:
 1. Create a new React project using Vite by running the following command in your terminal:
 
    ```bash
-   vite create my-react-app --template react
+   npm create vite@latest
    ```
 
 1. Create a new file called "context.jsx" in the "src" directory.
