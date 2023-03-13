@@ -57,7 +57,7 @@
 1. Wrap your entire app with the context provider component from the context you created in "context.js". Pass in the "count" state variable as a value prop.
 
    ```javascript
-   // src/index.jsx
+   // src/main.jsx
    import React from "react";
    import ReactDOM from "react-dom";
    import App from "./App";
