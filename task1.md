@@ -102,7 +102,7 @@
    import Counter from "./Counter";
 
    function App() {
-     const [count, setCount] = useState(0);
+     const { count, setCount } = useContext(CountContext);
 
      return (
        <div className="App">
@@ -116,4 +116,4 @@
    export default App;
    ```
 
-1. Verify that the "count" variable is shared between "App.js" and "Counter.js" by clicking the button and observing the count increment.
+1. Verify that the "count" variable is shared between "App.jsx" and "Counter.jsx" by clicking the button and observing the count increment.
